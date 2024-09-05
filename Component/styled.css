@@ -1,21 +1,37 @@
 @charset "UTF-8";
-
+.body{
+    width: 100%;
+}
 .title {
     font-size: 30px;
+    margin-left: 20px;
+    font-weight: 100;
     color:#333;
-    font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+.header_img{
+    vertical-align: bottom;
+    width: 70px;
 }
 
 .header_content {
     list-style: none;
     display: flex;
     gap: 20px;
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
     color:#333;
-    font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+    font-family: 'Lato', sans-serif;
 }
+.header_about{
+    text-decoration:none;
+    color:#333;
+}
+
 .header_icon{
     list-style: none;
     display: flex;
     gap: 20px;
+    
 }
