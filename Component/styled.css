@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.footer_content {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color:#333;
+    font-family: 'Lato', sans-serif;
+}
+.footer_about{
+    text-decoration:none;
+    color:#333;
+}
