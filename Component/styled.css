@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.title {
+    font-size: 30px;
+    color:#333;
+    font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+}
+
+.header_content {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    color:#333;
+    font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+}
+.header_icon{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
