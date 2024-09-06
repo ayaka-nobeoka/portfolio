@@ -1,5 +1,46 @@
 @charset "UTF-8";
+.body{
+    width: 100%;
+}
+.title {
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 100;
+    color:#333;
+    font-family: 'Lato', sans-serif;
+}
+.main_text{
+    display: none;
+}
+.header_img{
+    vertical-align: bottom;
+    width: 70px;
+}
+.header_nav {
+padding: 20px;
+}
+.header_content {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color:#333;
+    font-family: 'Lato', sans-serif;
+}
+.header_about{
+    text-decoration:none;
+    color:#333;
+}
 
+.header_icon{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0 20px;
+    
+}
 .warapper_img{
 margin: 0 auto;
 }
@@ -8,7 +49,9 @@ margin: 0 auto;
     width: 95%;
 }
 
-.me{
+.me,
+.Blog,
+.Works {
     display: block;
     max-width: 760px;
     text-align: center;
@@ -26,6 +69,7 @@ margin: 0 auto;
     letter-spacing: 0.05em;
     line-height: 1.0;
     text-align: center;
+    margin: 30px 0px;
 }
 .me_text01,
 .me_text02,
@@ -42,6 +86,82 @@ margin: 0 auto;
     letter-spacing: 0.05em;
     line-height: 1.9;
     text-align: left;
-    padding: 10px;
+    padding: 10px 55px;
+}
+
+.footer_nav {
+margin: 0 auto;
+width: 100%;
+max-width: fit-content;
+}
+.footer_content {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: #333;
+    font-family: 'Lato', sans-serif;
+    padding: 10px 0;
+}
+.footer_about {
+    text-decoration: none;
+    color: #333;
+   
+}
+
+.button_up{
+    display: block;
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 200;
+    color: #333;
+    letter-spacing: 0.05em;
+    line-height: 1.0;
+    text-align: center;
+}
+
+@media screen and (min-width:750px){
+    .me,
+    .Blog,
+    .Works{
+    margin: 0 auto;
+    width: 1000px;
+    }
+    .title {
+        font-size: 50px;
+        padding: 20px;
+    }
+    .header_content{
+        font-size: 20px;
+        flex-direction: row-reverse;
+        gap: 20px;
+        max-width: 1000px;
+    }
+    .aboutMe_pc,.Works_pc {
+        display: flex;
+    }
+    .header_icon{
+        flex-direction: row-reverse;
+    }
+
+    .warapper_img{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        max-width: 1000px;
+    }
+    .main_img{
+        width: 50%;
+    }
+    .main_text{
+    display: block;
+    font-size: 20px;
+    font-weight: 100;
+    color:#333;
+    letter-spacing: 0.10em;
+    line-height: 1.0;
+    font-family: 'Lato', sans-serif;
+    margin: auto;
+    }
 }
 

@@ -7,37 +7,82 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,100;1,300;1,900&family=Noto+Sans+JP:wght@300;500;700&display=swap"
     rel="stylesheet">
     <link rel="stylesheet" href="styled.css">
+    <link rel="stylesheet" href="reset.css">
+
 </head>
 <body>
+    <header>
+        <h1 class="title">My Portfolio
+            <img  class="header_img" src="/img/header.png" alt="" width="60" height="65">
+        </h1>
+        <nav class="header_nav">
+            <ul class="header_content">
+                <li ><a href="" class="header_about">about</a></li>
+                <li><a href="" class="header_about">Works</a></li>
+                <li><a href="" class="header_about">Blog</a></li>
+                <li><a href="" class="header_about">Contact</a></li>
+            </ul>
+        </nav>
+        <ul class="header_icon">
+            <li>
+                <a href="">
+                    <img class="instagram" src="/img/Instagram.png" alt="" width="28" height="28">
+
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img class="facebook" src="/img/Facebook.png" alt="" width="28" height="28">
+
+                </a>
+            </li>
+        </ul>
+    </header>
     <main>
         <div class="warapper_img">
+            <h2 class="main_text">ポートフォリオですよ!!
+            </h2>
             <img class="main_img" src="/Component/img/main.png" alt="" width="750" height="500">
         </div>
-            <section class="me">
-                <h2 class="me_title">aboutMe
-                </h2>
+        <section class="me">
+            <h2 class="me_title">aboutMe
+            </h2>
+            <div class="aboutMe_pc">
                 <wrapper class="me01">
-                <img class="me_img01" src="/Component/img/aboutMe.png" width="150" height="150">
-                <p class="me_text01">ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります</p>
+                    <img class="me_img01" src="/Component/img/aboutMe.png" width="150" height="150">
+                    <p class="me_text01">学んだ言語とライブラリ</p>
+                    <p class="me_text01">HTML,CSS,javaScript,React
+                    </p>
                 </wrapper>
-                    <wrapper class="me02">
-                        <img class="me_img02" src="/Component/img/aboutMe02.png" width="150" height="150">
-                        <p class="me_text02">ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります</p>
-                    </wrapper>
-
+                <wrapper class="me02">
+                    <img class="me_img02" src="/Component/img/aboutMe02.png" width="150" height="150">
+                    <p class="me_text02">大事なこと</p>
+                <p class="me_text02">エラーを読んで理解する！コードに意味を持たせる！深掘りする！コンソールログ出して考える！</p>
+                </wrapper>
+            </div>
             </section>
             <section class="Works">
                 <h2 class="works_title">Works
                 </h2>
+                <div class="Works_pc">
                 <wrapper class="works01">
-                    <img class="works_img01">
+                    <img class="me_img01" src="/Component/img/aboutMe.png" width="150" height="150">
+                    <p class="works_text01">Ys.beautyの作成</p>
                     <p class="works_text01">ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります</p>
                     </wrapper>
 
                     <wrapper class="works02">
-                        <img class="works_img02">
+                        <img class="me_img02" src="/Component/img/aboutMe02.png" width="150" height="150">
+                        <p class="works_text02">車のサイトの作成</p>
                         <p class="works_text02">ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります</p>
                     </wrapper>
+
+                    <wrapper class="works01">
+                    <img class="me_img01" src="/Component/img/aboutMe.png" width="150" height="150">
+                    <p class="works_text01">求人サイトの作成</p>
+                    <p class="works_text01">ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります</p>
+                    </wrapper>
+                </div>
 
             </section>
             <section class="Blog">
@@ -53,7 +98,19 @@
                         <p class="blog_text02">ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります</p>
                         </wrapper>
             </section>
+
+            <button class="button_up">☝</button>
     </main>
+    <footer>
+        <nav class="footer_nav">
+            <ul class="footer_content">
+                <li ><a href="" class="footer_about">about</a></li>
+                <li><a href="" class="footer_about">Works</a></li>
+                <li><a href="" class="footer_about">Blog</a></li>
+                <li><a href="" class="footer_about">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 <script src="script.js"></script>
 </html>
