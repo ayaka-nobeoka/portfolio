@@ -1,24 +1,5 @@
 @charset "UTF-8";
-<<<<<<< HEAD
 .footer_content {
-=======
-.body{
-    width: 100%;
-}
-.title {
-    font-size: 30px;
-    margin-left: 20px;
-    font-weight: 100;
-    color:#333;
-    font-family: 'Lato', sans-serif;
-}
-.header_img{
-    vertical-align: bottom;
-    width: 70px;
-}
-
-.header_content {
->>>>>>> main
     list-style: none;
     display: flex;
     gap: 20px;
@@ -28,21 +9,7 @@
     color:#333;
     font-family: 'Lato', sans-serif;
 }
-<<<<<<< HEAD
 .footer_about{
     text-decoration:none;
     color:#333;
 }
-=======
-.header_about{
-    text-decoration:none;
-    color:#333;
-}
-
-.header_icon{
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    
-}
->>>>>>> main
