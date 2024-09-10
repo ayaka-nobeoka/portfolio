@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,100;1,300;1,900&family=Noto+Sans+JP:wght@300;500;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="/Component/reset.css">
+
+</head>
+<body>
+    <header>
+        <h1 class="title">My Portfolio
+            <img  class="header_img" src="/Component/img/header.png" alt="" width="60" height="65">
+        </h1>
+        <nav class="header_nav">
+            <ul class="header_content">
+                <li ><a href="/Component/index.html" class="header_about">Back</a></li>
+
+            </ul>
+        </nav>
+        <ul class="header_icon">
+            <li>
+                <a href="">
+                    <img class="instagram" src="/Component/img/Instagram.png" alt="" width="28" height="28">
+
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img class="facebook" src="/Component/img/Facebook.png" alt="" width="28" height="28">
+
+                </a>
+            </li>
+        </ul>
+    </header>
+<main>
+    <h2 class="contact_title">Contact</h2>
+    <section class="contact">
+        <img class="contact_img" src="/Component/img/profile.png" alt="" width="200" height="200">
+                <form action="" method="post" id="formSubmit">
+                    <dl class="contact_list">
+                    <dt class="contact_name">お名前</dt>
+                    <dd ><input class="contact_name_input" type="text" id="contact_name_input"></dd>
+                    <span class="errorMessage" id="errorMessage"></span>
+
+                    <dt class="contact_mail">メールアドレス</dt>
+                    <dd ><input class="contact_email_input" type="email" id="contact_email_input"></dd>
+                    <span class="errorMessage" id="emailErrorMessage"></span>
+
+                    <dt class="contact_number">電話番号</dt>
+                    <dd><input class="contact_number_input" id="contact_number_input" type="text"></dd>
+                    <span class="errorMessage" id="number_errorMessage"></span>
+
+                    <dt class="contact_about" >お問い合わせ内容</dt>
+                    <dd ><textarea class="contact_textarea" type="text"></textarea></dd>
+                    </dl>
+                        <button type="submit" class="btn" id="btn">送信</button>
+                </form>
+    </section>
+</main>
+
+    <footer>
+</body>
+<script src="/Component/comtact/contact.js"></script>
+</html>
