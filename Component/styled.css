@@ -170,7 +170,7 @@ max-width: fit-content;
         flex-direction: row-reverse;
     }
 
-    .warapper_img{
+    .wrapper_img{
         display: flex;
         gap: 50px;
         max-width: 1000px;
@@ -191,7 +191,7 @@ max-width: fit-content;
 
     .button_up {
         width: 1000px;
-        bottom: 10px; left: 400px; 
+        bottom: 10px; left: 400px;
     }
 
 }

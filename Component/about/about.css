@@ -102,9 +102,52 @@ padding: 20px;
         gap: 20px;
     }
     .profile{
-  margin-top: 40px;
+    margin-top: 40px;
     }
     .profile_img{
-       margin: 5px;
+    margin: 5px;
     }
+    .aboutMe,
+    .Blog,
+    .Works{
+    margin: 0 auto;
+    width: 1000px;
+    }
+    .title {
+        font-size: 50px;
+        padding: 20px;
+    }
+    .header_content{
+        font-size: 20px;
+        flex-direction: row-reverse;
+        gap: 20px;
+        max-width: 1000px;
+    }
+    .aboutMe_pc,.Works_pc {
+        display: flex;
+        flex-direction: row;
+        gap:10px;
+    }
+    .header_icon{
+        flex-direction: row-reverse;
+    }
+    .wrapper_img{
+        display: flex;
+        gap: 50px;
+        max-width: 1000px;
+    }
+    .main_img{
+        width: 50%;
+    }
+    .main_text{
+    display: block;
+    font-size: 20px;
+    font-weight: 100;
+    color:#333;
+    letter-spacing: 0.10em;
+    line-height: 1.0;
+    font-family: 'Lato', sans-serif;
+    margin: auto;
+    }
+
 }
